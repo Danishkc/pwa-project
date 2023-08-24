@@ -47,7 +47,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <div className='head'>
+          <h1>My PWA Project</h1>
+      </div>
+    <div className="content">
         <label>Enter your message:</label>
         <br/>
         <input
@@ -62,7 +65,7 @@ function App() {
             <li key={index}>{ngram.join(' ')}</li>
           ))}
         </ul>
-      </header>
+      </div>
     </div>
   );
 }
