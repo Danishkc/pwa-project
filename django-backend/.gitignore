@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Django
+*.sqlite3
+*.pyc
+*.db
+*.log
+*.pot
+*.mo
+*.pot
+*.mo
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+pip-lock.txt
